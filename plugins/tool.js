@@ -20,14 +20,14 @@ System({
 	pattern: "ping",
 	fromMe: isPrivate,
 	type: "tool",
-	alias: ['pong','speed'],
+	alias: ['RIJU<IS_WORKING','speed'],
 	desc: "To check ping",
 	adminAccess: true,
 }, async (message) => {
 	const start = new Date().getTime();
-	const ping = await message.send("*𝆺𝅥 running 𝆺𝅥*");
+	const ping = await message.send("*𝆺𝅥 fucking 𝆺𝅥*");
 	const end = new Date().getTime();
-	return await ping.edit("*☇ ꜱᴩᷨᴇͦᴇͭᴅ ☁ :* " + (end - start) + " *ᴍꜱ* ");
+	return await ping.edit("*☇ EDITX_ ☁ :* " + (end - start) + " *ᴍꜱ* ");
 });
 
 System({
