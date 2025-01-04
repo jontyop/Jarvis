@@ -35,4 +35,3 @@ System({
     else {
         return await message.reply("*Example :* \n_*tag all*_\n_*tag admin*_\n_*tag me*_\n_*tag text*_\n_*Reply to a message to tag that message*_");
     }
-});
